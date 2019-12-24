@@ -86,6 +86,7 @@
         ],
       ),
 </pre>
+![](https://github.com/ajjoke/flutter_bottom_button_app/blob/master/images/001.png?raw=true)
 ## FloatingActionButton 方式
 -  FloatingActionButton的位置由floatingActionButtonLocation:  决定，点进去源码可看到
 <pre>
@@ -270,3 +271,4 @@ class AppState extends State<FloatingActionButtonStylePage> {
 }
 
 </pre>
+![](https://github.com/ajjoke/flutter_bottom_button_app/blob/master/images/002.png?raw=true)
