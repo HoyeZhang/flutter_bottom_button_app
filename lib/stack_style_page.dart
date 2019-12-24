@@ -17,8 +17,6 @@ class AppState extends State<StackStylePage> {
       MyCenterDockedFloatingActionButtonLocation();
 
 
-  var appBarTitles = ['首页', '发现', '我的'];
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -63,21 +61,22 @@ class AppState extends State<StackStylePage> {
                   unselectedLabelColor: Colors.black,
                   tabs: <Widget>[
                     new Tab(
-                      text: "今日",
-                      icon: new Icon(Icons.brightness_5),
+                      text: "主页",
+                      icon: new Icon(Icons.home),
                     ),
                     new Tab(
-                      text: "课表",
-                      icon: new Icon(Icons.map),
+                      text: "主页",
+                      icon: new Icon(Icons.home),
                     ),
+                   //中间多一个占位的
                    Container(),
                     new Tab(
-                      text: "课表",
-                      icon: new Icon(Icons.map),
+                      text: "主页",
+                      icon: new Icon(Icons.home),
                     ),
                     new Tab(
-                      text: "操场",
-                      icon: new Icon(Icons.directions_run),
+                      text: "主页",
+                      icon: new Icon(Icons.home),
                     ),
                   ],
                 ),
